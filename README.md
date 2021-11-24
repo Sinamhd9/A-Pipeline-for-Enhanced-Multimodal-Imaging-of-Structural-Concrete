@@ -17,7 +17,7 @@ It considers overlapping measurements and works across modalities, i.e., it can 
 
 For every measurement, the image area that can be covered by the signal length is used for reconstruction. Thus, the beam is not focused in any particular manner. We deliberately omit the enveloping of the signal (using the Hilbert Transform) that is often applied in practice since we find that it creates the illusion of a circular shape for circular objects like rebars. It should be noted that the GPR instrument used in this study is not an array GPR (it has only one emitter and receiver), however, our proposed XTFM algorithm works for any number of channels ≥ 2.
 
-For more info, see the [paper]((https://link.springer.com/epdf/10.1617/s11527-021-01803-w?sharing_token=XyznorzgkeENGz7OEZpGU3k_ZoEKMXbDGXWx5s5gP1ZPvMzLF_UABix_qIxFxYsINt3Yu5WUiiEJleatrm6USmkCQopu_VNeBXSDCIx1_AvvsCmM0EnL5zDyd6glOSqJSWHYgiZvmaNvhHnwCKdvBn7QmYa1In8AxorlEnsg25E%3D)) and the [code](https://github.com/Sinamhd9/A-Pipeline-for-Enhanced-Multimodal-Imaging-of-Structural-Concrete/blob/main/XTFM/XTFM.py), or try the tutorial notebook. 
+For more info, see the [paper](https://link.springer.com/epdf/10.1617/s11527-021-01803-w?sharing_token=XyznorzgkeENGz7OEZpGU3k_ZoEKMXbDGXWx5s5gP1ZPvMzLF_UABix_qIxFxYsINt3Yu5WUiiEJleatrm6USmkCQopu_VNeBXSDCIx1_AvvsCmM0EnL5zDyd6glOSqJSWHYgiZvmaNvhHnwCKdvBn7QmYa1In8AxorlEnsg25E%3D) and the [code](https://github.com/Sinamhd9/A-Pipeline-for-Enhanced-Multimodal-Imaging-of-Structural-Concrete/blob/main/XTFM/XTFM.py), or try the tutorial notebook. 
 
 ### Fusion
 
