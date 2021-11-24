@@ -1,5 +1,6 @@
 # A-Pipeline-for-Enhanced-Multimodal-Imaging-of-Structural-Concrete
 Code and data for the paper "A-Pipeline-for-Enhanced-Multimodal-Imaging-of-Structural-Concrete"
+**Please check this repo regularly for the newest updates. We will be sharing more soon.**
 
 ## Overview
 The source codes and data for the paper A-Pipeline-for-Enhanced-Multimodal-Imaging-of-Structural-Concrete .
