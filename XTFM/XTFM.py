@@ -35,11 +35,11 @@ def XTFM(X, V, eps, sR, d, s, r, dim):
     # For every i, j interelement measurement (total of (nC * (nC-1)/2):
     for i in range(nC):
       for j in range(i+1,nC):
-        # Calculate T matrix
-        T = np.round((((np.sqrt((xn-i*s - k*d)**2+yn_sq))+(np.sqrt((xn-j*s-k*d)**2+yn_sq)))/V+eps)/sR)
+        # Calculate t matrix
+        t = np.round((((np.sqrt((xn-i*s - k*d)**2+yn_sq))+(np.sqrt((xn-j*s-k*d)**2+yn_sq)))/V+eps)/sR)
         # Mask T matrix to discard out of range values (values bigger than sL) and add the correct signal to the image
         t[t>=max_length] = -2
         t= t.astype(int).T
-        im += np.ma.array(X[k,T, i, j], mask = t==-2) 
+        im += np.ma.array(X[k,t, i, j], mask = t==-2) 
   return im
 
