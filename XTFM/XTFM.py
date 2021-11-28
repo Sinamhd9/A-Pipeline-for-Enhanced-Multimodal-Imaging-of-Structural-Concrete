@@ -21,7 +21,7 @@ def XTFM(X, V, eps, sR, d, s, r, dim):
   xn = np.arange(0,dim[1]*r,r).reshape(-1,1) 
 
   # square yn once to save time in the main the loop
-  yn_sq = (yn**2)..reshape(1,-1) 
+  yn_sq = (yn**2).reshape(1,-1) 
   # Initialize the output image, im, with zeros with a size of dim
   im = np.zeros((len(yn),len(xn)))
 
