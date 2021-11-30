@@ -23,9 +23,9 @@ this study is not an array GPR (it has only one emitter and receiver), however, 
 algorithm works for any number of channels ≥ 2.
 
 ## Sample Results
-
+These are some sample results for specimen 3 with reasonable parameter choices.
 ### GPR
-
-
+![sample gpr image](../img/sample_gpr_XTFM.png)
 
 ### UEA
+![sample uea image](../img/sample_uea_XTFM.png)
