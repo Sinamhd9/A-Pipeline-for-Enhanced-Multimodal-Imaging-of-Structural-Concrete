@@ -20,6 +20,8 @@ For more info, see the [paper](https://link.springer.com/epdf/10.1617/s11527-021
 </p>
 
 ### Fusion
+
+A fusion algorithm is developed that uses wavelet decomposition on a series of rules derived from the nature of GPR and UEA XTFM images. Click [here](./Fusion) for codes and more details 
 <p align="center" >
 <img src="./img/fused_image.png" alt="uea image" width="40%"/>
 </p>
