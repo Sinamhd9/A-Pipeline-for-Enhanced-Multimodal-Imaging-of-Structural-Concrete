@@ -1,3 +1,5 @@
+# Image Fusion
+
 ## Overview
 <p>
 The fusion rule used here was informed by the nature of the measurements.
