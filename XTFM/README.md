@@ -23,13 +23,24 @@ this study is not an array GPR (it has only one emitter and receiver), however, 
 algorithm works for any number of channels ≥ 2.
 
 ## Files
+
+### Python
 ```XTFM.py``` file is the main XTFM algorithm written in Python.
 
 ```XTFM_GPR.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on mat file of GSSI mini XT data file.
 
 ```XTFM_UEA.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
 
-*We recommened using Google Colab to go through these tutorials.*
+*We recommened using Google Colab to go through these Python tutorials.*
+
+### MATLAB
+```XTFM.m``` file is the main XTFM algorithm written in MATLAB.
+
+```XTFM_UEA.m``` is a MATLAB main file that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
+
+```readFile.m``` is a function to read raw CSV Proceq file and is required to run the main file (```XTFM_UEA.m```)
+
+```FMC.m``` is a function to turn Proceq data into FMC format and is required to run the main file (```XTFM_UEA.m```)
 
 ## Sample Results
 These are some sample results for specimen 3 with reasonable parameter choices.
