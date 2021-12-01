@@ -25,7 +25,7 @@ algorithm works for any number of channels ≥ 2.
 ## Sample Results
 These are some sample results for specimen 3 with reasonable parameter choices.
 ### GPR
-![sample gpr image](../img/sample_gpr_XTFM.png)
+<img src = "../img/xtfm_gpr.png" alt = "sample gpr image" width = 50% >
 
 ### UEA
-![sample uea image](../img/sample_uea_XTFM.png)
+<img src = "../img/xtfm_uea.png" alt = "sample uea image" width = 50% >
