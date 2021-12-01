@@ -10,6 +10,13 @@ which we name Type 2 reflector.
 Examples of the former and latter are embedded metals such as rebars and air voids or backwalls of the concrete, respectively. 
 </p>
 
+```main.m is``` to run the fusion algorithm as well as other fusions described in the paper.
+
+```FusionCustomRule.m``` is the rule used for fusion algorithm.
+
+*Please note that before fusing the XTFM images, you may need to do some preprocessing such as normalization, translation and surface wave removal as described in the paper.*
+
+*Also make sure that you have same size GPR and UEA images from XTFM step.*
 
 <p align="center" >
 <img  src="../img/fusion_example.png" width = 40% />
