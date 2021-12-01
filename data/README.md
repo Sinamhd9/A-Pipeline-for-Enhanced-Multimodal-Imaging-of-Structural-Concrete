@@ -6,5 +6,5 @@ DZT file of GSSI mini XT and the converted mat files are provided. We will provi
 
 ## UEA
 
-Proceq Pundit 250 array data are provided in raw CSV format. Please see the [tutorial notebook](../main/XTFM/XTFM_UEA.ipynb) for reading and cleaning the files in Python.
+Proceq Pundit 250 array data are provided in raw CSV format. Please see the [tutorial notebook](../XTFM/XTFM_UEA.ipynb) for reading and cleaning the files in Python.
 
