@@ -42,7 +42,8 @@ A fusion algorithm is developed that uses wavelet decomposition on a series of r
 We hope you find these codes useful and you reuse it in your work or improve it.
 
 This repository is meant to be a starting point for researchers and engineers to experiment with our proposed pipeline, reuse it in their work and develop newer/better models.
-  
+
+**If you use our code or pieces of it, please cite the paper listed below**. 
 ## Citation 
 
 Mehdinia, S., Schumacher, T., Song, X. et al. A pipeline for enhanced multimodal 2D imaging of concrete structures. Mater Struct 54, 228 (2021). https://doi.org/10.1617/s11527-021-01803-w
