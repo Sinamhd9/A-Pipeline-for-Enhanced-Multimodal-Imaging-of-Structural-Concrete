@@ -22,6 +22,15 @@ a circular shape for circular objects like rebars. It should be noted that the G
 this study is not an array GPR (it has only one emitter and receiver), however, our proposed XTFM
 algorithm works for any number of channels ≥ 2.
 
+## Files
+```XTFM.py``` file is the main XTFM algorithm written in Python.
+
+```XTFM_GPR.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on mat file of GSSI mini XT data file.
+
+```XTFM_UEA.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
+
+*We recommened using Google Colab to go through these tutorials.*
+
 ## Sample Results
 These are some sample results for specimen 3 with reasonable parameter choices.
 ### GPR
