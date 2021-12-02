@@ -1,5 +1,5 @@
 # A Pipeline for Enhanced Multimodal Imaging of Structural Concrete
-Code and data for the [paper](https://doi.org/10.1617/s11527-021-01803-w) "A Pipeline for Enhanced Multimodal Imaging of Structural Concrete"
+Code and data for the paper "A Pipeline for Enhanced Multimodal Imaging of Structural Concrete"
 
 [Link to the article](https://link.springer.com/article/10.1617/s11527-021-01803-w)
 
