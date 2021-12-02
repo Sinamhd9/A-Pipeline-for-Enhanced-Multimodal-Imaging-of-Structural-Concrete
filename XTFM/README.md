@@ -27,16 +27,18 @@ algorithm works for any number of channels ≥ 2.
 ### Python
 ```XTFM.py``` file is the main XTFM algorithm written in Python.
 
-```XTFM_GPR.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on mat file of GSSI mini XT data file.
+```XTFM_UEA.ipynb``` is a jupyter notebook example that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
 
-```XTFM_UEA.ipynb``` is a jupyter notebook that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
+```XTFM_GPR.ipynb``` is a jupyter notebook example that shows how to perform image reconstruction using XTFM on mat file of GSSI mini XT data.
 
 *We recommened using Google Colab to go through these Python tutorials.*
 
 ### MATLAB
 ```XTFM.m``` file is the main XTFM algorithm written in MATLAB.
 
-```XTFM_UEA.m``` is a MATLAB main file that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
+```XTFM_UEA.m``` is a MATLAB example main file that shows how to perform image reconstruction using XTFM on raw Proceq UEA data file.
+
+```XTFM_GPR.m``` is a MATLAB example main file that shows how to perform image reconstruction using XTFM on mat file of GSSI mini XT data.
 
 ```readFile.m``` is a function to read raw CSV Proceq file and is required to run the main file (```XTFM_UEA.m```)
 
