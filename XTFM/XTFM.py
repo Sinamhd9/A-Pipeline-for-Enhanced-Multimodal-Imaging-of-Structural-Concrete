@@ -33,7 +33,7 @@ def XTFM(X, V, eps, sR, d, s, r, dim):
   # For every k independent measurement (total of nS) 
   for k in range(nS):
     # For every i, j interelement measurement (total of (nC * (nC-1)/2):
-    for i in range(nC):
+    for i in range(nC-1):
       for j in range(i+1,nC):
         # Calculate t matrix
         t = np.round((((np.sqrt((xn-i*s - k*d)**2+yn_sq))+(np.sqrt((xn-j*s-k*d)**2+yn_sq)))/V+eps)/sR)
