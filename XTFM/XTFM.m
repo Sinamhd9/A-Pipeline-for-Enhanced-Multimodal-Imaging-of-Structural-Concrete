@@ -36,7 +36,7 @@ for k = 1:nS
     for i =1:nC
         for j=i+1:nC
             % Calculate t matrix
-            t = round(((sqrt((bsxfun(@plus,((xn-i*s+s-k*d).^2),yn_sq)))+sqrt((bsxfun(@plus,((xn-j*s+s-k*d).^2),yn_sq))))./V+eps)/sR);
+            t = round(((sqrt((bsxfun(@plus,((xn-i*s+s-k*d+d).^2),yn_sq)))+sqrt((bsxfun(@plus,((xn-j*s+s-k*d+d).^2),yn_sq))))./V+eps)/sR);
             %Mask T matrix to discard out of range values (values bigger than sL) and add the correct signal to the image
             t2 = t;
             t2(t2>sL) = sL;
