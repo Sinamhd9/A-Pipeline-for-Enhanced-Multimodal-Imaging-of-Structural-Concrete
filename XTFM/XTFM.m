@@ -33,7 +33,7 @@ nC  = size(X, 3);
 % For every k independent measurement (total of nS) 
 for k = 1:nS
     %For every i, j interelement measurement (total of (nC * (nC-1)/2):
-    for i =1:nC
+    for i =1:nC-1
         for j=i+1:nC
             % Calculate t matrix
             t = round(((sqrt((bsxfun(@plus,((xn-i*s+s-k*d+d).^2),yn_sq)))+sqrt((bsxfun(@plus,((xn-j*s+s-k*d+d).^2),yn_sq))))./V+eps)/sR);
